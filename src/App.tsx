@@ -66,28 +66,28 @@ function App() {
           {isLoggedIn ? (
             <Routes>
               <Route path="/" element={<LandingPage />} />
-              <Route path="/Login" element={<LoginPage />} />
-              <Route path="/Register" element={<RegisterPage />} />
-              <Route path="/Profile" element={<ProfilePage />} />
-              <Route path="/Account" element={<AccountPage />} />
-              <Route path="/Subscription" element={<SubscriptionPage />} />
-              <Route path="/WorkSpace" element={<WorkSpacePage />} />
-              <Route path="/CreateProject" element={<CreateNewProject />} />
-              <Route path="/Compare" element={<ComparePage />} />
-              <Route path="/ProjectConfig" element={<ProjectConfigPage />} />
-              <Route path="/TotalInvestment" element={<TotalInvestmentPage />} />
-              <Route path="/OperationCost" element={<OperationCostPage />} />
-              <Route path="/Revenue" element={<RevenuePage />} />
-              <Route path="/Miscellaneous" element={<MiscellaneousPage />} />
-              <Route path="/FFC" element={<FFCPage />} />
-              <Route path="/Statements" element={<StatementsPage/>} />
-              <Route path="/CustomStatements" element={<CustomStatementPage />} />
-              <Route path="/CashFlowStatements" element={<CashFlowStatement />} />
-              <Route path="/ProfitLossStatements" element={<ProfitLossStatement />}/>
-              <Route path="/Sensitivity/cashflow" element={<SensitivityCashflow />}/>
-              <Route path="/Sensitivity/income" element={<SensitivityIncome />}/>
-              <Route path="/Chart/cashflow" element={<CashflowChartPage />} />
-              <Route path="/Chart/income" element={<IncomeChartPage />} />
+              <Route path="/login" element={<LoginPage />} />
+              <Route path="/register" element={<RegisterPage />} />
+              <Route path="/profile" element={<ProfilePage />} />
+              <Route path="/account" element={<AccountPage />} />
+              <Route path="/subscription" element={<SubscriptionPage />} />
+              <Route path="/workSpace" element={<WorkSpacePage />} />
+              <Route path="/createProject" element={<CreateNewProject />} />
+              <Route path="/compare" element={<ComparePage />} />
+              <Route path="/projectConfig" element={<ProjectConfigPage />} />
+              <Route path="/totalInvestment" element={<TotalInvestmentPage />} />
+              <Route path="/operationCost" element={<OperationCostPage />} />
+              <Route path="/revenue" element={<RevenuePage />} />
+              <Route path="/miscellaneous" element={<MiscellaneousPage />} />
+              <Route path="/ffc" element={<FFCPage />} />
+              <Route path="/statements" element={<StatementsPage/>} />
+              <Route path="/customStatements" element={<CustomStatementPage />} />
+              <Route path="/cashFlowStatements" element={<CashFlowStatement />} />
+              <Route path="/profitLossStatements" element={<ProfitLossStatement />}/>
+              <Route path="/sensitivity/cashflow" element={<SensitivityCashflow />}/>
+              <Route path="/sensitivity/income" element={<SensitivityIncome />}/>
+              <Route path="/chart/cashflow" element={<CashflowChartPage />} />
+              <Route path="/chart/income" element={<IncomeChartPage />} />
 
               <Route path="*" element={<LandingPage />} />
               {/* <Route path="/NewInvestmentProject" element={<NewInvestmentProject />} /> */}
@@ -95,9 +95,9 @@ function App() {
           ) : (
             <Routes>
               <Route path="/" element={<LandingPage />} />
-              <Route path="/Login" element={<LoginPage />} />
-              <Route path="/Register" element={<RegisterPage />} />
-              <Route path="/WorkSpace" element={<WorkSpacePage />} />
+              <Route path="/login" element={<LoginPage />} />
+              <Route path="/register" element={<RegisterPage />} />
+              <Route path="/workSpace" element={<WorkSpacePage />} />
               <Route path="*" element={<PleaseLogin />} />
               <Route path="/test" element={<DBTest1 />} />
             </Routes>
