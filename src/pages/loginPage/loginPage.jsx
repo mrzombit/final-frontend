@@ -21,7 +21,7 @@ function LoginPage() {
   const doSubmit = (input) => {
     dispatch(setAuthUsername(input.username))
     dispatch(getToken({ username: input.username, password: input.password }))
-    navigate('/Workspace')
+    navigate('/workspace')
   }
 
   return (

@@ -58,7 +58,7 @@ function WorkSpacePage() {
   const handleProjectOnClick = (each) => {
     // console.log(JSON.stringify(each));
     dispatch(setSelectedProject(each))
-    navigate('/ProjectConfig')
+    navigate('/projectConfig')
   }
 
   const onProjectOptionHandle = (data, left, top, element) => {

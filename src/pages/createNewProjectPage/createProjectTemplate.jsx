@@ -121,14 +121,14 @@ const CreateProjectTemplate = (props) => {
     }
     dispatch(addNewProject(projectShallow))
     dispatch(setSelectedProject(projectShallow))
-    navigate('/ProjectConfig')
+    navigate('/projectConfig')
   }
 
   const onCreateProjectClick = (template) => {
     dispatch(updateProjectTemplate({ id: template._id, data: { ...template, selectedCounted: template.selectedCounted + 1 } }))
     dispatch(fetchProjectTemplates())
     dispatch(setShallowCreateProject(template.projectData))
-    navigate('/CreateProject')
+    navigate('/createProject')
   }
 
 

@@ -27,7 +27,7 @@ function RegisterPage() {
       .then(res => {
         console.log(res)
         if (res.status === 200) {
-          navigate('/Login');
+          navigate('/login');
         }
       })
       .catch(function (error) {

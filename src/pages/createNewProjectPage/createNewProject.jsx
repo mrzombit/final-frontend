@@ -218,7 +218,7 @@ const CreateNewProject = (props) => {
       }
       dispatch(addNewProject(shallowProject))
       dispatch(setSelectedProject(shallowProject))
-      navigate('/ProjectConfig')
+      navigate('/projectConfig')
     }
   }, [isLoaded, industryOptions, currencyOptions, createProject, file, dosubmit])
 

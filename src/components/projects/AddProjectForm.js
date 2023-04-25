@@ -145,7 +145,7 @@ const AddProjectForm = () => {
       // alert(JSON.stringify(projectShallow));
       dispatch(addNewProject(projectShallow))
       dispatch(setSelectedProject(projectShallow))
-      navigate('/ProjectConfig')
+      navigate('/projectConfig')
     }
   }, [count, isLoaded, industryOptions, currencyOptions, dosubmit, projectionPeriod])
 

@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 import DBTest1 from "./pages/.test/dbTest1";
-import DBTest2 from "./pages/.test/dbTest2";
 
 import MainSidebar from "./components/common/mainSidebar/mainSidebar";
 import ProfilePage from "./pages/profilePage/profilePage";
