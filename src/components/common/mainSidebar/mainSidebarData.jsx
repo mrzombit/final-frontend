@@ -8,7 +8,7 @@ export const mainSidebarData = [
   // },
   // {
   //   title: 'Profile',
-  //   path: '/Profile',
+  //   path: '/profile',
   //   // icon: <IoIcons.IoIosPaper />,
   //   cName: 'nav-text',
   //   bgButt: '#1a83ff'
@@ -22,7 +22,7 @@ export const mainSidebarData = [
   },
   {
     title: 'Work Space',
-    path: '/WorkSpace',
+    path: '/workSpace',
     // icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text',
     bgButt: '#1a83ff'

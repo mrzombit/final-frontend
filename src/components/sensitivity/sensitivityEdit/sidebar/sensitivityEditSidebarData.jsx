@@ -11,34 +11,34 @@ import { SiNounproject } from "react-icons/si";
 export const sensitivityEditSidebarData = [
   {
     title: 'เกี่ยวกับธุรกิจ',
-    path: '/ProjectConfig',
+    path: '/projectConfig',
     icon: <SiNounproject />,
     cName: 'nav-text'
   },
   {
     title: 'ต้นทุนธุรกิจ',
-    path: '/TotalInvestment',
+    path: '/totalInvestment',
     icon: <BsCashCoin />,
     cName: 'nav-text',
     bgButt: '#1a83ff'
   },
   {
     title: 'ค่าใช้จ่ายประจำ',
-    path: '/OperationCost',
+    path: '/operationCost',
     icon: <FaCoins />,
     cName: 'nav-text',
     bgButt: '#1a83ff'
   },
   {
     title: 'รายรับ',
-    path: '/Revenue',
+    path: '/revenue',
     icon: <RiMoneyDollarCircleLine />,
     cName: 'nav-text',
     bgButt: '#1a83ff'
   },
   {
     title: 'เงินกู้และหุ้นส่วน',
-    path: '/Miscellaneous',
+    path: '/miscellaneous',
     icon: <BiCoinStack />,
     cName: 'nav-text',
     bgButt: '#1a83ff'
@@ -55,7 +55,7 @@ export const bizSidebarData_checkbiz = [
     },
     {
       title: 'ออกเอกสาร',
-      path: '/Statements',
+      path: '/statements',
       icon: <HiOutlineNewspaper />,
       cName: 'nav-text',
       bgButt: '#1a83ff'

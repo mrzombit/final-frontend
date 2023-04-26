@@ -117,7 +117,7 @@ function RegisterPage() {
             <div className="form-group d-flex justify-content-between">
               <div className="d-flex m-2 re-text align-baseline">
                 <p style={{ opacity: "0.5" }}>Already have an account ? &nbsp;</p>
-                <Link to="/Login" style={{ textDecoration: "none" }}>
+                <Link to="/login" style={{ textDecoration: "none" }}>
                   <p>Sign in</p>
                 </Link>
               </div>

@@ -1,20 +1,20 @@
 export const bizSidebarProfileData = [
   {
     title: 'Profile',
-    path: '/Profile',
+    path: '/profile',
     // icon: <SiNounproject />,
     cName: 'nav-text'
   },
   {
     title: 'Account',
-    path: '/Account',
+    path: '/account',
     // icon: <BsCashCoin />,
     cName: 'nav-text',
     bgButt: '#1a83ff'
   },
   {
     title: 'Subscription',
-    path: '/Subscription',
+    path: '/subscription',
     // icon: <FaCoins />,
     cName: 'nav-text',
     bgButt: '#1a83ff'

@@ -168,9 +168,9 @@ const IncomeChartPage = (props) => {
           <StatementHearder
             title="Income Statement"
             type="chart"
-            sensitivityPath="/Sensitivity/income"
-            listPath="/ProfitLossStatements"
-            chartPath="/Chart/incom"
+            sensitivityPath="/sensitivity/income"
+            listPath="/profitLossStatements"
+            chartPath="/chart/incom"
           />
           <div>
             {/* <div>{calculateYearRange()}</div> */}

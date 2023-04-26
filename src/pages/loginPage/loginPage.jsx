@@ -76,7 +76,7 @@ function LoginPage() {
             </div>
             <div className="d-flex justify-content-center my-2">
               <p>Don't have an account ? &nbsp;</p>
-              <Link to="/Register" style={{ textDecoration: "none" }}>
+              <Link to="/register" style={{ textDecoration: "none" }}>
                 <p>Sign up</p>
               </Link>
             </div>

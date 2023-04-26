@@ -11,12 +11,12 @@ function LandingPage() {
       <div className="d-flex justify-content-between px-5">
         <p className="logo-font">BIZCHECK</p>
         <Dropdown as={ButtonGroup}>
-          <Button href="/Login" className="butt">Sign in</Button>
+          <Button href="/login" className="butt">Sign in</Button>
 
           <Dropdown.Toggle split className="butt" id="dropdown-split-basic" />
 
           <Dropdown.Menu>
-            <Dropdown.Item href="/Register">Sign up</Dropdown.Item>
+            <Dropdown.Item href="/register">Sign up</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </div>

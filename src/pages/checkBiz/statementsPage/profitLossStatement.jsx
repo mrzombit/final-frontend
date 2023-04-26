@@ -42,9 +42,9 @@ const profitLossStatement = () => {
       <div className="p-4 chart-pages-body">
         <StatementHearder
           title="Income Statement"
-          sensitivityPath="/Sensitivity/income"
-          listPath="/ProfitLossStatements"
-          chartPath="/Chart/income"
+          sensitivityPath="/sensitivity/income"
+          listPath="/profitLossStatements"
+          chartPath="/chart/income"
         />
         <div className="block-print">
           <button className="btn print-state" onClick={printDocument}><BiPrinter/>&nbsp;พิมพ์ข้อมูล</button>

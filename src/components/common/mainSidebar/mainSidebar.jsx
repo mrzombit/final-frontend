@@ -24,12 +24,12 @@ function MainSidebar() {
               <Link to="/" className="mb-4">
                 <VscHome />
               </Link>
-              <Link to="/WorkSpace">
+              <Link to="/workSpace">
                 <VscExtensions />
               </Link>
             </div>
           </div>
-          <Link to="/Profile" className="menu-bars mb-4">
+          <Link to="/profile" className="menu-bars mb-4">
             <VscAccount />
           </Link>
         </div>

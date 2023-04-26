@@ -39,9 +39,9 @@ const cashFlowStatement = () => {
       <div className="p-4 biztool-body-width">
         <StatementHearder
           title="CashFlow Statement"
-          sensitivityPath="/Sensitivity/cashflow"
-          listPath="/CashFlowStatements"
-          chartPath="/Chart/cashflow"
+          sensitivityPath="/sensitivity/cashflow"
+          listPath="/cashFlowStatements"
+          chartPath="/chart/cashflow"
         />
         <div>
           <div className="block-print">
