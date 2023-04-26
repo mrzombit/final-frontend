@@ -9,7 +9,7 @@ import { IconContext } from "react-icons";
 import { useSelector } from "react-redux";
 import React, { useEffect } from "react";
 
-function bizSidebar() {
+function BizSidebar() {
 
   const selectedProject = useSelector(state => state.projects.selectedProject)
 
@@ -54,4 +54,4 @@ function bizSidebar() {
   );
 }
 
-export default bizSidebar;
+export default BizSidebar;

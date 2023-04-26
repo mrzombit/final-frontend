@@ -9,7 +9,7 @@ import "../ffcCard/ffcCard.css"
 // import BizTableInvestment from "../../bizTools/bizTable/bizTableInvestment";
 
 
-function ffcTree() {
+function FFCTree() {
   return (
     <div className="ffc-content">
       <div className="ffc-body-content">
@@ -33,4 +33,4 @@ function ffcTree() {
   )
 }
 
-export default ffcTree
+export default FFCTree

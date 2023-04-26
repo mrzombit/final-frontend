@@ -2,7 +2,7 @@ import React from "react";
 import TitleFFC from "../titleFFC/titleFFC";
 import "./ffcOne.css";
 
-function ffcOne() {
+function FFCOne() {
   return (
     <div className="ffc-content">
       <div className="ffc-body-content">
@@ -23,4 +23,4 @@ function ffcOne() {
   );
 }
 
-export default ffcOne;
+export default FFCOne;

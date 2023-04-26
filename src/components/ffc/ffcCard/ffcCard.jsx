@@ -27,7 +27,7 @@ import checkbizFormula from "../../checkbiz/checkbizFormula/checkbizFormula";
 // import { AiOutlineDoubleLeft } from "react-icons/ai";
 // import BIZTOOL_PAGE_CONFIG from '../../../pages/bizTools/pageConfig';
 
-const ffcCard = (props) => {
+const FFCCard = (props) => {
 
     const cbf = checkbizFormula();
     const { totalRevenue, totalRevenue_MIN } = cbf.calculateRevenue();
@@ -939,4 +939,4 @@ const ffcCard = (props) => {
     )
 }
 
-export default ffcCard
+export default FFCCard

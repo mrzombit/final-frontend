@@ -8,7 +8,7 @@ import "../ffcCard/ffcCard.css"
 // import BizTableInvestment from "../../bizTools/bizTable/bizTableInvestment";
 // import FFCHeadCard from "../ffcCard/ffcHeadCard";
 
-function ffctwo() {
+function FFCtwo() {
   return (
     <div className="ffc-content">
       <div className="ffc-body-content">
@@ -32,4 +32,4 @@ function ffctwo() {
   );
 }
 
-export default ffctwo;
+export default FFCtwo;
