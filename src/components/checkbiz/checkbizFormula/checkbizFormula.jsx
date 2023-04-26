@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchProjectById, projectUpdated, updateProject } from "../../../features/projectsSlice"
 import BIZTOOL_PAGE_CONFIG from "../../../pages/bizTools/pageConfig";
 
-export default function checkbizFormula() {
+export default function CheckbizFormula() {
 
   const dispatch = useDispatch();
   const selectedProject = useSelector((state) => state.projects.selectedProject);

@@ -9,7 +9,7 @@ import {
 } from "../../../features/projectsSlice";
 
 
-const incomeDocument = () => {
+const IncomeDocument = () => {
   const yearRange = [2565, 2566, 2567, 2568];
   const inittialIncomeData = CHECKBIZ_CONFIG.income
 
@@ -209,4 +209,4 @@ const incomeDocument = () => {
   );
 };
 
-export default incomeDocument;
+export default IncomeDocument;

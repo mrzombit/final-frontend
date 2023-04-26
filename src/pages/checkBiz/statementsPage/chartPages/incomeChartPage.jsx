@@ -15,7 +15,7 @@ import EditInputOnSidebar from "../../../../components/checkbiz/sidebarEditdata/
 import checkbizFormula from "../../../../components/checkbiz/checkbizFormula/checkbizFormula";
 
 
-const incomeChartPage = (props) => {
+const IncomeChartPage = (props) => {
 
   const cbf = checkbizFormula();
   const { totalRevenue, totalRevenue_MIN} = cbf.calculateRevenue();
@@ -313,4 +313,4 @@ const incomeChartPage = (props) => {
   );
 };
 
-export default incomeChartPage;
+export default IncomeChartPage;

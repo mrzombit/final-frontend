@@ -10,7 +10,7 @@ const PleaseLogin = () => {
         if (isAlert.current) return
         isAlert.current = true
         alert("กรุณาเข้าสู่ระบบ!")
-        navigate('/Login')
+        navigate('/login')
     }, [])
 
 

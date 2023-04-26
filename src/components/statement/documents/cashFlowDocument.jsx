@@ -9,7 +9,7 @@ import {
 } from "../../../features/projectsSlice";
 
 
-const cashFlowDocument = () => {
+const CashFlowDocument = () => {
   const yearRange = [2565, 2566, 2567, 2568];
 
   const inittialCashFlowData = CHECKBIZ_CONFIG.cashflow
@@ -390,4 +390,4 @@ const cashFlowDocument = () => {
   );
 };
 
-export default cashFlowDocument;
+export default CashFlowDocument;

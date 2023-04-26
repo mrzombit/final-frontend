@@ -22,7 +22,7 @@ import checkbizFormula from "../../../../components/checkbiz/checkbizFormula/che
 // import SensitivityEditSidebar from "../../../../components/sensitivity/sensitivityEdit/sidebar/sensitivityEditSidebar";
 // import BIZTOOL_PAGE_CONFIG from "../../../bizTools/pageConfig";
 
-const cashflowChartPage = (props) => {
+const CashflowChartPage = (props) => {
 
   const cbf = checkbizFormula();
   const { totalRevenue, totalRevenue_MIN} = cbf.calculateRevenue();
@@ -468,4 +468,4 @@ const cashflowChartPage = (props) => {
   );
 };
 
-export default cashflowChartPage;
+export default CashflowChartPage;

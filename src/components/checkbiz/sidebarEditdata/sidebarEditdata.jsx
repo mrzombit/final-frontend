@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineDoubleLeft } from "react-icons/ai";
 import BIZTOOL_PAGE_CONFIG from "../../../pages/bizTools/pageConfig";
-import cashflowChartPage from "../../../pages/checkBiz/statementsPage/chartPages/cashflowChartPage";
+import CashflowChartPage from "../../../pages/checkBiz/statementsPage/chartPages/cashflowChartPage";
 import "./sidebarEditdata.css"
 
 function sidebarEditdata(props) {
